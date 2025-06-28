@@ -1,37 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📅 Calendra
 
-## Getting Started
+**Calendra** is a Calendly clone built with modern web technologies. It enables users to create and manage events, share scheduling links, and integrate directly with Google Calendar for seamless meeting management.
 
-First, run the development server:
+---
+
+## 🚀 Tech Stack
+
+- **Frontend & Framework**: [Next.js 15](https://nextjs.org/), [React](https://reactjs.org/)
+- **Authentication**: [Clerk](https://clerk.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/), [shadcn/ui](https://ui.shadcn.com/)
+- **Database & ORM**: [Drizzle ORM](https://orm.drizzle.team/), [Neon](https://neon.tech/)
+- **Validation**: [Zod](https://zod.dev/)
+- **API Integration**: [Google Calendar API](https://developers.google.com/calendar)
+- **Language**: TypeScript
+
+---
+
+## ✨ Features
+
+- 🔐 Authentication with Clerk (email, OAuth providers)
+- 📆 Event creation and time slot selection
+- 📤 Shareable scheduling links
+- 🔗 Google Calendar sync and integration
+- 🧑‍💼 Profile management and availability settings
+- 🎨 Clean, accessible UI with Tailwind and shadcn
+- ✅ Form validation with Zod
+- 🌐 Fully typed with TypeScript
+
+---
+
+## 📦 Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+git clone https://github.com/yourusername/calendra-app.git
+cd calendra-app
+npm install
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📚 Project Structure
+/app           → App routing & pages (Next.js 15)
+/components    → Reusable UI components
+/lib           → Utility functions & constants
+/db            → Drizzle schema & queries
+/styles        → Tailwind & custom styles
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# Calendra-app" 
+"# Calendra" 
